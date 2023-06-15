@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44aa8def-2bd8-4dd1-9809-c55217ffeda0" name="Changes" comment="What is Persistence Context?">
+    <list default="true" id="44aa8def-2bd8-4dd1-9809-c55217ffeda0" name="Changes" comment="Functions of Persistence Context">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/persistenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EntityStateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,8 +80,8 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.persistenceTest.test8">
-    <configuration name="persistenceTest.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EntityStateTest.test6">
+    <configuration name="EntityStateTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -93,7 +94,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;persistenceTest.test4&quot;" />
+            <option value="&quot;EntityStateTest.test1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -103,7 +104,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="persistenceTest.test5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -116,7 +117,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;persistenceTest.test5&quot;" />
+            <option value="&quot;EntityStateTest.test3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -126,7 +127,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="persistenceTest.test6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -139,7 +140,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;persistenceTest.test6&quot;" />
+            <option value="&quot;EntityStateTest.test4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,7 +150,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="persistenceTest.test7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -162,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;persistenceTest.test7&quot;" />
+            <option value="&quot;EntityStateTest.test5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="persistenceTest.test8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -185,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;persistenceTest.test8&quot;" />
+            <option value="&quot;EntityStateTest.test6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.persistenceTest.test8" />
-        <item itemvalue="Gradle.persistenceTest.test7" />
-        <item itemvalue="Gradle.persistenceTest.test6" />
-        <item itemvalue="Gradle.persistenceTest.test5" />
-        <item itemvalue="Gradle.persistenceTest.test4" />
+        <item itemvalue="Gradle.EntityStateTest.test6" />
+        <item itemvalue="Gradle.EntityStateTest.test5" />
+        <item itemvalue="Gradle.EntityStateTest.test4" />
+        <item itemvalue="Gradle.EntityStateTest.test3" />
+        <item itemvalue="Gradle.EntityStateTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686797882042</updated>
-      <workItem from="1686797883114" duration="12337000" />
+      <workItem from="1686797883114" duration="16724000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1686804040910</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686810834281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Functions of Persistence Context">
+      <created>1686818330434</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686818330434</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +254,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="understand Entity" />
     <MESSAGE value="What is Persistence Context?" />
-    <option name="LAST_COMMIT_MESSAGE" value="What is Persistence Context?" />
+    <MESSAGE value="Functions of Persistence Context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functions of Persistence Context" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -265,6 +274,26 @@
           <url>file://$PROJECT_DIR$/src/test/java/persistenceTest.java</url>
           <line>211</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EntityStateTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EntityStateTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EntityStateTest.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EntityStateTest.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
